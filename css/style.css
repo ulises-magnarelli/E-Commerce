@@ -786,6 +786,10 @@ section {
 
 @media (max-width: 530px){
 
+    .logo{
+        font-size: 15px;
+    }
+
     :root{
         --h1-font: 3.5rem;
         --h2-font: 2.2rem;
@@ -799,10 +803,29 @@ section {
         margin-right: 7px;
     }
 
-    .newsletter-content form {
+    .newsletter-content{
         display: flex;
         flex-direction: column;
     }
 
+    /* .newsletter-text {
+        margin: 10px;
+    }  */
 
+    .newsletter-content form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    .signature {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
 }
